@@ -1,0 +1,102 @@
+*{
+    margin: 0 ;
+}
+
+.layer1{
+    display: flex;
+    background-color: rgb(60, 18, 0);
+    justify-content: space-between;
+    color: antiquewhite;
+    padding: 10px 30px;
+}
+
+a{
+    color:rgb(7, 157, 7);
+}
+
+
+.layer2{
+    display : flex;
+    background-color: rgb(139, 0, 0);
+    padding: 30px;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+
+
+span{
+    font-size: small;
+    padding: 20px;
+}
+
+
+.layer3{
+    background-color: brown;
+    padding: 10px;
+}
+button{
+    background-color: brown;
+    border: none;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+
+h1, h2, h3, h4{
+    margin: 10px 10px;
+}
+
+p{
+    margin: 10px 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
+.content{
+    flex: 1;
+    padding: 20px 20px 20px 30px;
+}
+.nav{
+    display: block;
+    padding: 20px;
+    background-color: rgb(227, 170, 170);
+    box-sizing: border-box;
+    width: 250px;
+    margin: 0px 40px 0px 0px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.footer{
+    background-color:  rgb(60, 18, 0);
+    color: antiquewhite;
+    display: flex;
+    padding: 20px 30px;
+}
+
+.follow{
+    margin: 0% 40% 0% 10%;
+}
+
+.copyright{
+    text-align: right;
+}
+
+.sub-heading{
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+
+.vertical-line {
+    border-left: 2px solid red;
+    height: 10%;
+    margin-left: 60px;
+    padding: 10px;
+}

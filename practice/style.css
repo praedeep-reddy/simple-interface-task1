@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #98FB98;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+.right-menu {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+}
+
+.right-menu section {
+    margin-bottom: 20px;
+}
+
+.right-menu h3 {
+    margin-top: 0;
+}
+
+.right-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-menu li {
+    margin-bottom: 10px;
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.right-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Space after the right menu without background color */
+.right-menu::after {
+    content: '';
+    display: block;
+    height: 20px; /* Adjust this value to set the space height */
+    background-color: transparent;
+}
